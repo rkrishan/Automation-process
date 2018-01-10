@@ -1,0 +1,12 @@
+Lambda_name,Repo_url,Lambda_arn,Bucket_key
+devpolly_corna, git@bitbucket.org:elucidatainc/corna_lambda_suvidha.git,arn:aws:lambda:ap-southeast-1:508105988628:function:dummy_automation_lambda,"automated_corna_lambda.zip
+"
+testpolly_corna, git@bitbucket.org:elucidatainc/corna_lambda_suvidha.git,arn:aws:lambda:ap-southeast-1:508105988628:function:testpolly_corna,testpolly_corna_lambda.zip
+devpolly_quant, git@bitbucket.org:elucidatainc/quant_lambda_suvidha.git,arn:aws:lambda:ap-southeast-1:508105988628:function:devpolly_quant,devpolly_quant_lambda.zip
+quant_lambda, git@bitbucket.org:elucidatainc/quant_lambda_suvidha.git,arn:aws:lambda:ap-southeast-1:508105988628:function:quant_lambda,testpolly_quant_lambda.zip
+convert_lcms_pvd, git@bitbucket.org:elucidatainc/lcms_tstpl_pvd_lambda.git,arn:aws:lambda:ap-southeast-1:508105988628:function:convert_lcms_pvd,testpolly_tstpl_lambda.zip
+devpolly_convert_lcms_pvd, git@bitbucket.org:elucidatainc/lcms_tstpl_pvd_lambda.git,arn:aws:lambda:ap-southeast-1:508105988628:function:devpolly_convert_lcms_pvd,devpolly_tstpl_lambda.zip
+devpolly_algo_connector, git@bitbucket.org:elucidatainc/algorithm_connector.git,arn:aws:lambda:ap-southeast-1:508105988628:function:devpolly_algo_connector,devpolly_algo_connector.zip
+algo_connector, git@bitbucket.org:elucidatainc/algorithm_connector.git,arn:aws:lambda:ap-southeast-1:508105988628:function:algo_connector,testpolly_algo_connector.zip
+devpolly_mithoo_microservice, git@bitbucket.org:elucidatainc/mithoo_microservices.git,arn:aws:lambda:ap-southeast-1:508105988628:function:devpolly_mithoo_microservice,devpolly_mithoo_microservice.zip
+, git@bitbucket.org:elucidatainc/mithoo_microservices.git,arn:aws:lambda:ap-southeast-1:508105988628:function:mithoo_microservice,testpolly_mithoo_microservice.zip
